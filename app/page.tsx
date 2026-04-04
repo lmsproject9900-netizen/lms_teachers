@@ -43,11 +43,11 @@ export default function LoginPage() {
 
       // Redirect based on role
       if (role === "hod") {
-        router.push("/teachers/hod");
+        router.push("/hod");
       } else if (role === "principal") {
-        router.push("/teachers/principal");
+        router.push("/principal");
       } else if (role === "ass.prof") {
-        router.push("/teachers/dashboard");
+        router.push("/teachers");
       }
 
     } catch (err) {
