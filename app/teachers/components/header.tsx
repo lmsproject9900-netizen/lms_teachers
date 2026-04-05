@@ -45,7 +45,7 @@ export default function Header({ teacher }: any) {
           </button>
 
           <button
-            onClick={() => router.push("/students")}
+            onClick={() => router.push("teachers/students")}
             className="flex items-center gap-2 hover:text-gray-200 transition"
           >
             <Users className="w-5 h-5" />

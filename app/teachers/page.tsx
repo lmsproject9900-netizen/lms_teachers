@@ -142,7 +142,7 @@ export default function TeachersPage() {
             <div className="space-y-3">
 
               <button
-                onClick={() => router.push("/students")}
+                onClick={() => router.push("teachers/students")}
                 className="w-full flex justify-between p-4 bg-indigo-50 rounded-lg hover:bg-indigo-100"
               >
                 <span className="flex gap-2 items-center">
